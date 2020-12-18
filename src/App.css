@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+  width:4%;
+}
+.navbar{
+margin-top: 1em;
+padding-bottom: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.logo-text{
+  color:black;
+  font-weight: bold;
+  font-size: medium;
+  margin-left:0.2em;
+}
+
+.text{
+  color:black;
+  margin-left: 70em;
+}
+
+.text:hover{
+  cursor: text;
+  text-decoration:none;
+}
+button{
+width:3em;
+height:3em;
+border:none;
+background-color:rgb(31, 184, 245) ;
+  border-radius: 50%;
+  padding: 0 1em 0 1em;
+}
+.power{
+  width:2%;
+  margin-left: 1em;
+  color:grey;
+  /* background-color: none; */
+}
+.navbar{
+}
