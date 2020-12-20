@@ -6,10 +6,10 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 const NavBar = (props) => {
   return (
     <div className="container-fluid navbar">
-      <Nav vertical >
+      <Nav  >
         <img src={logo} className="logo"/>
               <NavLink href="#" className="logo-text">PlayBack</NavLink>
-              <NavLink  className="text">kannan@text.com</NavLink> <button className="button">K</button><img src={btn} className="power"/>
+              <NavLink  className="text">kannan@text.com</NavLink> <button className="button">K</button><NavLink><img src={btn} className="power"/></NavLink>
       </Nav>
     </div>
   );

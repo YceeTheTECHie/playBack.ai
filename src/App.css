@@ -1,47 +1,114 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .logo{
-  width:4%;
-}
-.navbar{
-margin-top: 1em;
-padding-bottom: 1em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:3%;
+  position:absolute;
+  padding-top: 0.1em;
 
 }
+
+.navbar{
+margin-top: 1em;
+margin-left: 1em;
+padding-bottom: 1em;
+border-bottom: 1px solid rgba(0, 0, 0, .2);
+ -webkit-background-clip: padding-box;
+ background-clip: padding-box;
+}
 .logo-text{
+  position: relative;
+  position: relative;
+  margin-left: 3em;
+  text-decoration: none;
   color:black;
   font-weight: bold;
   font-size: medium;
-  margin-left:0.2em;
+
 }
 
-.text{
-  color:black;
-  margin-left: 70em;
+.logo-text:hover{
+  text-decoration:none;
 }
+.text{
+  position: relative;
+  color:black;
+  padding-left: 58em;
+}
+
 
 .text:hover{
   cursor: text;
   text-decoration:none;
 }
 button{
-width:3em;
-height:3em;
-border:none;
-background-color:rgb(31, 184, 245) ;
+  width:3em;
+  height:3em;
+  border:none;
+  background-color:rgb(31, 184, 245) ;
   border-radius: 50%;
   padding: 0 1em 0 1em;
 }
 .power{
+  position: absolute;
   width:2%;
-  margin-left: 1em;
+  margin: 0.5em 0 0 3em;
   color:grey;
-  /* background-color: none; */
 }
-.navbar{
+.sidebar{
+ margin: 0 0 0 1em;
+  display: flex;
+  flex-direction: column;
+
 }
+.sidebar-container{
+    width:6%;
+    border-right:1px solid rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+i{
+   color:gray;
+  margin-top:2em;
+}
+i:hover{
+  color:rgb(243, 12, 51);
+}
+
+
+.tooltip{
+  color:white;
+  margin: 0em 0 0 1.5em;
+}
+.tooltip-text{
+  border-left: 3px solid rgb(243, 12, 51);
+  padding: 0em 2em 1em 2em ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.tooltip-text ul li{
+padding:1em  7em 0.9em 0;
+color:black;
+opacity: 0.8;
+font-size: 0.7em;
+list-style-type: none;
+border-bottom:1px solid rgba(0, 0, 0, .2);
+-webkit-background-clip: padding-box;
+background-clip: padding-box; 
+}
+
+.tooltip-text li:last-child{
+border-bottom: none;
+}
+.tooltip-text li:first-child{
+padding-top: 2.5em;
+}
+
+.tooltip-text ul li:hover{
+color:rgb(243, 12, 51);
+}
+
